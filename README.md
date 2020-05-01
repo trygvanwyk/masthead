@@ -1,1 +1,3 @@
 # contribtest
+Tryg hasnt made a website yet...
+trygvanwyk.github.io/contribtest/
