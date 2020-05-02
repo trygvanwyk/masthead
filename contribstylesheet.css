@@ -7,3 +7,31 @@ body {
   margin-top:50px;
   color:green;
 }
+
+#p01 { /*p containing link to page 2*/
+  text-align:center;
+}
+
+#a1 { /* Link to page 2 from index*/
+  font-size:30px;
+  color:#fff;
+  text-decoration:none;
+  display:inline-block;
+  text-align:center;
+  background-color:navy;
+  padding:25px;
+}
+
+#a2 { /* Link to index from page 2*/
+  font-size:30px;
+  color:#fff;
+  text-decoration:none;
+  display:inline-block;
+  text-align:center;
+  background-color:navy;
+  padding:25px;
+}
+
+#p11 { /*p containing link to index*/
+  text-align:center;
+}
