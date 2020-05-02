@@ -12,18 +12,7 @@ body {
   text-align:center;
 }
 
-#a1 { /* Link to page 2 from index*/
-  font-size:30px;
-  color:#fff;
-  text-decoration:none;
-  display:inline-block;
-  text-align:center;
-  background-color:navy;
-  padding:25px;
-  border-radius:15px;
-}
-
-#a2 { /* Link to index from page 2*/
+.a1 { /* Links between pages*/
   font-size:30px;
   color:#fff;
   text-decoration:none;
