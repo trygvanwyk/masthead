@@ -2,7 +2,8 @@ body {
   background-color:#fff
 }
 
-.p1 {
-  padding:10px;
-  background-color:#7a67ee
+.h1 {
+  text-align:center;
+  margin-top:50px;
+  color:navy;
 }
