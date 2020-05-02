@@ -2,8 +2,8 @@ body {
   background-color:#fff
 }
 
-.h1 {
+.h1 { /*Most Important Headings*/
   text-align:center;
   margin-top:50px;
-  color:navy;
+  color:green;
 }
