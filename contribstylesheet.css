@@ -5,7 +5,7 @@ body {
 .h1 { /*Most Important Headings*/
   text-align:center;
   margin-top:50px;
-  color:green;
+  color:navy;
 }
 
 #p01 { /*p containing link to page 2*/
@@ -20,6 +20,7 @@ body {
   text-align:center;
   background-color:navy;
   padding:25px;
+  border-radius:15px;
 }
 
 #a2 { /* Link to index from page 2*/
@@ -30,6 +31,7 @@ body {
   text-align:center;
   background-color:navy;
   padding:25px;
+  border-radius:15px;
 }
 
 #p11 { /*p containing link to index*/
