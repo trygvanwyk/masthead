@@ -1,3 +1,17 @@
 body {
-  background-color:#9BC4E2;
+  background-color: #9bc4e2;
+  font-family:"Trebuchet MS";
+}
+
+#div01 {
+  text-align: center;
+  width:50vw;
+  position: absolute;
+  left:25vw;
+  background-image:url('headingbg.svg');
+}
+
+.h1 {
+  text-align: center;
+  color: blue;
 }
