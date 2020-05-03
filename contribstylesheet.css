@@ -1,6 +1,7 @@
 body {
-  background-color: #9bc4e2;
   font-family:"Trebuchet MS";
+  background: rgb(247,248,254);
+  background: linear-gradient(90deg, rgba(247,248,254,1) 0%, rgba(184,217,186,1) 50%, rgba(130,138,195,1) 100%);
 }
 
 #div01 {
@@ -11,7 +12,48 @@ body {
   background-image:url('headingbg.svg');
 }
 
+#div11 {
+  text-align: center;
+  width:50vw;
+  position: absolute;
+  left:25vw;
+  background-image:url('headingbg.svg');
+}
+
 .h1 {
   text-align: center;
   color: blue;
+}
+
+#navbar {
+  float:right;
+  clear:both;
+}
+
+#navbarlist {
+  list-style-type: none;
+  margin:0;
+  padding:0;
+}
+
+.navbaritems {
+  float:left;
+  color:#00f;
+  text-align:center;
+  display:block;
+}
+
+.navbarlinks {
+  display:block;
+  text-decoration:none;
+  background-color:#ddd;
+  color:#00f;
+  text-align:center;
+  padding:32px;
+  border-radius:20px;
+}
+
+#selectedpage { /*Shows the current page being viewed in the navbar*/
+  background-color: #fdd;
+  border:solid .25px #00f;
 }
