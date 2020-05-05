@@ -1,7 +1,6 @@
 body {
   font-family:"Trebuchet MS";
-  background: rgb(247,248,254);
-  background: linear-gradient(90deg, rgba(247,248,254,1) 0%, rgba(184,217,186,1) 50%, rgba(130,138,195,1) 100%);
+  background:#000;
 }
 
 .divHeading { /*Container div for the heading*/
@@ -62,6 +61,8 @@ body {
 .slideshow { /*div containing slideshow*/
   max-width:100vw;
   max-height:100vw;
+  position:relative;
+  top:-1.1vw;
 }
 
 .mySlides { /*img sources for slideshow*/
