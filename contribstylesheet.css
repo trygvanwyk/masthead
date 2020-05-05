@@ -60,9 +60,9 @@ body {
 }
 
 .slideshow { /*div containing slideshow*/
-  max-width:50vw;
+  max-width:100vw;
 }
 
 .mySlides { /*img sources for slideshow*/
-  width:100%
+  width:100%;
 }
