@@ -61,8 +61,10 @@ body {
 
 .slideshow { /*div containing slideshow*/
   max-width:100vw;
+  max-height:100vw;
 }
 
 .mySlides { /*img sources for slideshow*/
   width:100%;
+  height:100%;
 }
