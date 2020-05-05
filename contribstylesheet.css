@@ -58,3 +58,11 @@ body {
   background-color: #444;
   color:#fff;
 }
+
+.slideshow { /*div containing slideshow*/
+  max-width:50vw;
+}
+
+.mySlides { /*img sources for slideshow*/
+  width:100%
+}
