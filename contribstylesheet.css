@@ -21,6 +21,7 @@ body {
 .navbarDiv { /*div containing list of links for navbar*/
   float:right;
   margin-right:1vw;
+  font-family:"Perpetua";
 }
 
 .navbarList { /* <ul> with list of links*/
@@ -58,6 +59,15 @@ body {
   color:#fff;
 }
 
+.mainContent1 {
+  max-width:100vw;
+  max-height:100vw;
+  position:relative;
+  top:-.5vw;
+  text-align: center;
+  color: white;
+}
+
 .slideshow { /*div containing slideshow*/
   max-width:100vw;
   max-height:100vw;
@@ -68,4 +78,25 @@ body {
 .mySlides { /*img sources for slideshow*/
   width:100%;
   height:100%;
+  opacity:1;
+}
+
+.slideshowCover {
+  width:100%;
+  height:55.7vw;
+  position:relative;
+  top:-57.35vw;
+  background-color: #fff;
+  opacity:.25;
+
+}
+
+.coverParagraph {
+  text-align:center;
+  color:#000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 6vw;
 }
