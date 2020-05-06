@@ -83,19 +83,19 @@ body {
 
 .slideshowCover {
   width:100%;
-  height:55.7vw;
-  position:relative;
-  top:-57.35vw;
-  background-color: #fff;
-  opacity:.25;
-
+  height:97.25%;
+  opacity:.5;
+  position:absolute;
+  top:51.35%;
+  left:50%;
+  transform: translate(-50%, -50%);
 }
 
 .coverParagraph {
   text-align:center;
   color:#000;
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 6vw;
