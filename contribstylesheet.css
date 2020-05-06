@@ -1,5 +1,5 @@
 body {
-  font-family:"Trebuchet MS";
+  font-family:"Didot";
   background:#000;
 }
 
@@ -62,7 +62,7 @@ body {
   max-width:100vw;
   max-height:100vw;
   position:relative;
-  top:-1.1vw;
+  top:-1.7vw;
 }
 
 .mySlides { /*img sources for slideshow*/
