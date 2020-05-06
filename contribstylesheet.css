@@ -100,3 +100,7 @@ body {
   transform: translate(-50%, -50%);
   font-size: 6vw;
 }
+
+.myParas {
+  background-color: #fff;
+}
