@@ -9,6 +9,7 @@ body {
   padding-top:1vw;
   padding-bottom:1vw;
   background-image:url('headingbg.svg');
+  font-family:"Garamond"
 }
 
 .headingText { /*div with "contrib" text in the heading*/
@@ -21,7 +22,7 @@ body {
 .navbarDiv { /*div containing list of links for navbar*/
   float:right;
   margin-right:1vw;
-  font-family:"Perpetua";
+  font-family:"Garamond";
 }
 
 .navbarList { /* <ul> with list of links*/
@@ -83,10 +84,10 @@ body {
 
 .slideshowCover {
   width:100%;
-  height:97.25%;
+  height:98.5%;
   opacity:.5;
   position:absolute;
-  top:51.25%;
+  top:50.7%;
   left:50%;
   transform: translate(-50%, -50%);
 }
