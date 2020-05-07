@@ -9,7 +9,7 @@ body {
   padding-top:1vw;
   padding-bottom:1vw;
   background-image:url('headingbg.svg');
-  font-family:"Garamond"
+  font-family:"Garamond";
 }
 
 .headingText { /*div with "contrib" text in the heading*/
@@ -17,6 +17,7 @@ body {
   margin-left:1vw;
   font-size:2vw;
   margin-top:-2vw;
+  line-height: 5vw;
 }
 
 .navbarDiv { /*div containing list of links for navbar*/
@@ -52,7 +53,7 @@ body {
   text-align:center;
   padding:2vw;
   height:4vw;
-  line-height:3.5vw;
+  line-height:4vw;
 }
 
 #selectedPage { /*Shows the current page being viewed in the navbar*/
@@ -67,6 +68,7 @@ body {
   top:-.5vw;
   text-align: center;
   color: white;
+  z-index: -1;
 }
 
 .slideshow { /*div containing slideshow*/
@@ -84,10 +86,10 @@ body {
 
 .slideshowCover {
   width:100%;
-  height:98.5%;
+  max-height:100%;
   opacity:.5;
   position:absolute;
-  top:50.7%;
+  top:50%;
   left:50%;
   transform: translate(-50%, -50%);
 }
