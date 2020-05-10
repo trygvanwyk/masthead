@@ -1,6 +1,6 @@
 body {
   font-family:"Didot";
-  background:#000;
+  background:#fff;
 }
 
 .divHeading { /*Container div for the heading*/
@@ -106,4 +106,30 @@ body {
 
 .myParas {
   background-color: #fff;
+}
+
+.summary {
+  float:left;
+  width:50%;
+  background-color:navy;
+  padding-left:1vw;
+  padding-right:1vw;
+}
+
+#summaryPara {
+  font-size:2vw;
+  font-family:"Garamond";
+  color:#fff;
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #20ACFF;
+  color: white;
+  text-align: center;
+  padding: 2vw;
+  clear:both;
+  font-size: 1vw;
 }
