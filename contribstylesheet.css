@@ -165,6 +165,18 @@ body {
   height:100%;
 }
 
+#latestNews {
+  margin-top:-3.2vw;
+  text-align:center;
+}
+
+#newHeading {
+  text-align:center;
+  background-color:#f8bf84;
+}
+
+
+
 .footer {
   left: 0;
   bottom: 0;
