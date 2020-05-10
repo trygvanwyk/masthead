@@ -133,17 +133,18 @@ body {
 
 .summaryContainer {
   height:35vw;
+  background-color:#000;
 }
 
 .summary {
   float:left;
   width:50%;
-  height:100%;
+  height:106%;
   background-color:navy;
   padding-left:1%;
   padding-right:1%;
   margin-top:-2vw;
-  margin-bottom:1vw;
+  margin-bottom:0vw;
   background-color:#ccc;
 }
 
@@ -153,10 +154,15 @@ body {
   color:#000;
 }
 
+#summaryDecoration {
+  width:100%;
+  margin-top:-10vw;
+}
+
 .summaryImage {
   float:right;
   width:48%;
-  height:100%;
+  height:106%;
   margin-top:-2vw;
 }
 
@@ -166,13 +172,15 @@ body {
 }
 
 #latestNews {
-  margin-top:-3.2vw;
   text-align:center;
+  margin-top:-3.2vw;
 }
 
 #newHeading {
-  text-align:center;
   background-color:#f8bf84;
+  font-size:3vw;
+  clear:both;
+
 }
 
 
