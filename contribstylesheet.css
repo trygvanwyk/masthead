@@ -152,6 +152,11 @@ body {
   font-size:1.8vw;
   font-family:"Didot";
   color:#000;
+  height:40%;
+}
+
+#decorImage {
+  width:100%;
 }
 
 .summaryImage {
