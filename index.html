@@ -10,7 +10,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="contribscripts.js"></script>
 </head>
-<body id="indexBody" onload="textCarousel();carousel();showSlides();inProgress()">
+<body id="indexBody" onload="textCarousel();carousel();showSlides();">
 
 <div class="divHeading">
 <div class="headingText">
@@ -72,6 +72,18 @@
   <div id="newsHeading">
     <h3>Latest Local Sailing News</h3>
   </div>
+
+<div class="cardList">
+  <ul id="cardUl">
+    <li class="cardNav" id="topCard"><a onclick="currentSlide(1)" class="cardLinks">Event 1</a></li>
+    <li class="cardNav"><a onclick="currentSlide(2)" class="cardLinks">Event 2</a></li>
+    <li class="cardNav"><a onclick="currentSlide(3)" class="cardLinks">Event 3</a></li>
+    <li class="cardNav"><a onclick="currentSlide(4)" class="cardLinks">Event 4</a></li>
+    <li class="cardNav"><a onclick="currentSlide(5)" class="cardLinks">Event 5</a></li>
+  </ul>
+</div>
+
+
   <div id="newsScroll">
 
     <div class="newsCard">

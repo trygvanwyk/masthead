@@ -189,6 +189,47 @@ body {
   border-bottom: .3vw solid #fff;
 }
 
+.cardList {
+  text-align:left;
+  float:left;
+}
+
+#cardUl {
+  list-style-type:none;
+}
+
+.cardNav {
+padding:1vw;
+margin-left:-4vw;
+margin-top:2vw;
+}
+
+#topCard {
+  margin-top:0;
+}
+
+.cardLinks {
+  cursor: pointer;
+  position: relative;
+  width: auto;
+  color:#fff;
+  background-color:#20ACFF;
+  font-weight: bold;
+  font-size: 2vw;
+  transition: 0.6s ease;
+  border-radius: 0 .1vw .1vw 0;
+  user-select: none;
+  padding-top:1.75vw;
+  padding-bottom:1.75vw;
+  padding-right:10vw;
+  padding-left:10vw;
+  font-size:2vw;
+}
+
+.cardLinks:hover {
+  background-color:#7171ff;
+}
+
 .prev, .next {
   cursor: pointer;
   position: relative;
@@ -204,7 +245,7 @@ body {
 
 /* Position the "next button" to the right */
 .next {
-  left:15.3vw;
+  left:2vw;
   bottom:15vw;
 }
 .prev {
@@ -227,7 +268,7 @@ body {
   text-align:center;
   cursor: pointer;
   height: 1vw;
-  width: 2vw;
+  width: 2.5vw;
   margin: 0 .2vw;
   background-color: #20acff;
   border-radius:0;
