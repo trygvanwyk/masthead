@@ -169,16 +169,16 @@ body {
 #latestNews {
   text-align:center;
   margin-top:-3.1vw;
+  height:6vw;
+  background-color:#f8bf84;
+  margin-bottom:.5vw;
 }
 
 #newsHeading {
-  background-color:#f8bf84;
   font-size:3vw;
   clear:both;
-
+  line-height:6vw;
 }
-
-
 
 .footer {
   left: 0;
