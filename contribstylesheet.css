@@ -278,7 +278,7 @@ body {
 /* Three columns side by side */
 .columnBio {
   float: left;
-  width: 32%;
+  width: 100%;
   margin-bottom: 16px;
   padding: 0 8px;
 }
