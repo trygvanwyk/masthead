@@ -10,7 +10,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="contribscripts.js"></script>
 </head>
-<body id="indexBody" onload="textCarousel();carousel();">
+<body id="indexBody" onload="textCarousel();carousel();showSlides();">
 
 <div class="divHeading">
 <div class="headingText">
@@ -79,12 +79,26 @@
       <img class="cardImage" src="">
       <p class="cardParagraph">Event Description</p>
     </div>
+    <div class="newsCard">
+      <h4 class="cardHeading">Event Name 2</h4>
+      <img class="cardImage" src="">
+      <p class="cardParagraph">Event Description</p>
+    </div>
+    <div class="newsCard">
+      <h4 class="cardHeading">Event Name 3</h4>
+      <img class="cardImage" src="">
+      <p class="cardParagraph">Event Description</p>
+    </div>
 
 
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
     <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
-    
+  <div id="dotDiv">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
   </div>
 </div>
 

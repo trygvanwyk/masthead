@@ -133,7 +133,7 @@ body {
 
 .summaryContainer {
   height:35vw;
-  background-color:#000;
+  background-color:#fff;
 }
 
 .summary {
@@ -145,7 +145,8 @@ body {
   padding-right:1%;
   margin-top:-2vw;
   margin-bottom:0vw;
-  background-color:#ccc;
+  background-color:#fff;
+  border:.1vw solid #000;
 }
 
 #summaryPara {
@@ -161,8 +162,8 @@ body {
 
 .summaryImage {
   float:right;
-  width:48%;
-  height:106%;
+  width:47.5%;
+  height:106.5%;
   margin-top:-2vw;
 }
 
@@ -173,9 +174,9 @@ body {
 
 #latestNews {
   text-align:center;
-  margin-top:-3.1vw;
+  margin-top:-2.7vw;
   height:40vw;
-  background-color:#ccc;
+  background-color:#fff;
   margin-bottom:.3vw;
 }
 
@@ -184,7 +185,7 @@ body {
   clear:both;
   height:6vw;
   line-height:6vw;
-  background-color:#f8bf84;
+  background-image:url('images/headingbg.svg');
   border-bottom: .3vw solid #fff;
 }
 
@@ -192,10 +193,10 @@ body {
   cursor: pointer;
   position: relative;
   width: auto;
-  padding: 1vw;
-  color: white;
+  padding:1vw;
+  color:#ccc;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 2vw;
   transition: 0.6s ease;
   border-radius: 0 .1vw .1vw 0;
   user-select: none;
@@ -203,13 +204,39 @@ body {
 
 /* Position the "next button" to the right */
 .next {
-  right: 0;
-  border-radius: .1vw 0 0 .1vw;
+  left:15.3vw;
+  bottom:15vw;
+}
+.prev {
+  right:15vw;
+  bottom:15vw;
 }
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
+  color:#fff;
+}
+
+#dotDiv {
+  margin-top:-2vw;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  text-align:center;
+  cursor: pointer;
+  height: 1vw;
+  width: 2vw;
+  margin: 0 .2vw;
+  background-color: #20acff;
+  border-radius:0;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #7171ff;
 }
 
 .newsCard {
@@ -218,7 +245,8 @@ body {
   background-color:#eee;
   box-shadow:0 .2vw .4vw 0 #333;
   position:relative;
-  margin-left:35vw;
+  margin-left:35%;
+  margin-top:-2vw;
 }
 
 .cardHeading {
@@ -250,7 +278,7 @@ body {
 /* Three columns side by side */
 .columnBio {
   float: left;
-  width: 30%;
+  width: 32%;
   margin-bottom: 16px;
   padding: 0 8px;
 }
