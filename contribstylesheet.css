@@ -192,6 +192,9 @@ body {
   width:30vw;
   height:30vw;
   background-color:#eee;
+  box-shadow:0 .2vw .4vw 0 #333;
+  position:relative;
+  margin-left:35vw;
 }
 
 .cardHeading {
