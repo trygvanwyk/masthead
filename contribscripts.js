@@ -1,6 +1,10 @@
 var slideIndex = 0;
 var slideIndex1 = 0;
 
+function inProgress() {
+  alert("We are currently creating this website! Send us an email to learn more about our progress: mastheaddevs@gmail.com");
+}
+
 function textCarousel() {
   var i;
   var x = document.getElementsByClassName("myParas");
