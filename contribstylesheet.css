@@ -224,9 +224,9 @@ body {
 }
 
 /* Three columns side by side */
-.column {
+.columnBio {
   float: left;
-  width: 33.3%;
+  width: 100%;
   margin-bottom: 16px;
   padding: 0 8px;
 }
@@ -240,27 +240,27 @@ body {
 }
 
 /* Add some shadows to create a card effect */
-.card {
+.cardBio {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 /* Some left and right padding inside the container */
-.container {
+.containerBio {
   padding: 0 16px;
 }
 
 /* Clear floats */
-.container::after, .row::after {
+.containerBio::after, .row::after {
   content: "";
   clear: both;
   display: table;
 }
 
-.title {
+.titleBio {
   color: grey;
 }
 
-.button {
+.buttonBio {
   border: none;
   outline: 0;
   display: inline-block;
@@ -272,6 +272,6 @@ body {
   width: 100%;
 }
 
-.button:hover {
+.buttonBio:hover {
   background-color: #555;
 }
