@@ -174,15 +174,37 @@ body {
 #latestNews {
   text-align:center;
   margin-top:-3.1vw;
-  height:6vw;
-  background-color:#f8bf84;
-  margin-bottom:.5vw;
+  height:40vw;
+  background-color:#ccc;
+  margin-bottom:.3vw;
 }
 
 #newsHeading {
   font-size:3vw;
   clear:both;
+  height:6vw;
   line-height:6vw;
+  background-color:#f8bf84;
+  border-bottom: .3vw solid #fff;
+}
+
+.newsCard {
+  width:30vw;
+  height:30vw;
+  background-color:#eee;
+}
+
+.cardHeading {
+  font-size:2vw;
+  padding:.5vw;
+}
+
+.cardImage {
+
+}
+
+.cardParagraph{
+  font-size:1.5vw;
 }
 
 .footer {
