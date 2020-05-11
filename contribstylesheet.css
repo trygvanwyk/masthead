@@ -201,7 +201,7 @@ body {
 .cardNav {
 padding:1vw;
 margin-left:-4vw;
-margin-top:2vw;
+margin-top:4vw;
 }
 
 #topCard {
@@ -210,7 +210,7 @@ margin-top:2vw;
 
 .cardLinks {
   cursor: pointer;
-  position: relative;
+  position: absolute;
   width: auto;
   color:#fff;
   background-color:#20ACFF;
@@ -223,7 +223,7 @@ margin-top:2vw;
   padding-bottom:1.75vw;
   padding-right:10vw;
   padding-left:10vw;
-  font-size:2vw;
+  font-size:1.5vw;
 }
 
 .cardLinks:hover {
@@ -245,7 +245,7 @@ margin-top:2vw;
 
 /* Position the "next button" to the right */
 .next {
-  left:2vw;
+  left:15.2vw;
   bottom:15vw;
 }
 .prev {
