@@ -57,3 +57,11 @@ function showSlides(n) {
   slides[slideIndex2-1].style.display = "block";
   dots[slideIndex2-1].className += " active";
 }
+
+/*
+
+function inProgress() {
+  alert("We are currently creating this website! Send us an email to learn more about our progress: mastheaddevs@gmail.com");
+}
+
+*/
