@@ -251,15 +251,35 @@ body {
 
 .cardHeading {
   font-size:2vw;
-  padding:.5vw;
+  padding:.2vw;
+  margin:0;
 }
 
 .cardImage {
-
+  width:auto;
+  height:50%;
 }
 
 .cardParagraph{
   font-size:1.5vw;
+  text-align:left;
+  margin-left:.5vw;
+}
+
+.descriptionLinks {
+  text-decoration:none;
+  cursor: pointer;
+  position: absolute;
+  color:#fff;
+  background-color:#20ACFF;
+  font-size: 1vw;
+  transition: 0.6s ease;
+  border-radius: 1vw;
+  padding-left:.4vw;
+  padding-right:.4vw;
+  font-size:1.5vw;
+  margin-left:.5vw;
+  margin-right:.5vw;
 }
 
 .footer {
