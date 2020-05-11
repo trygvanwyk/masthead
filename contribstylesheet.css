@@ -154,12 +154,6 @@ body {
   color:#000;
 }
 
-#summaryDecoration {
-  width:100%;
-  height:60%;
-  margin-top:-10vw;
-}
-
 .summaryImage {
   float:right;
   width:48%;
@@ -174,10 +168,10 @@ body {
 
 #latestNews {
   text-align:center;
-  margin-top:-3.2vw;
+  margin-top:-3.1vw;
 }
 
-#newHeading {
+#newsHeading {
   background-color:#f8bf84;
   font-size:3vw;
   clear:both;
