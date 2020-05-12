@@ -303,6 +303,16 @@ body {
   padding: 0 8px;
 }
 
+.coverParagraphBio {
+  text-align:center;
+  color: #fff;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 8vw;
+}
+
 /* Display the columns below each other instead of side by side on small screens */
 @media screen and (max-width: 700px) {
   .column {
