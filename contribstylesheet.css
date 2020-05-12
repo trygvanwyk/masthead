@@ -255,6 +255,10 @@ body {
   margin:0;
 }
 
+.dateFont {
+  font-family:"Garamond"
+}
+
 .cardImage {
   width:auto;
   height:50%;
@@ -264,6 +268,7 @@ body {
   font-size:1.5vw;
   text-align:left;
   margin-left:.5vw;
+  margin-top:-.2vw;
 }
 
 .descriptionLinks {
@@ -274,13 +279,15 @@ body {
   background-color:#20ACFF;
   font-size: 1vw;
   transition: 0.6s ease;
-  border-radius: 1vw;
+  border-radius: .5vw;
   padding-left:.4vw;
   padding-right:.4vw;
   font-size:1.5vw;
   margin-left:.5vw;
   margin-right:.5vw;
 }
+
+
 
 .footer {
   left: 0;
