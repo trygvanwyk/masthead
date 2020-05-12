@@ -349,3 +349,11 @@ body {
 }
 
 /*Page 2 Bryan*/
+
+.communityTextOne {
+  margin-top: 2vw;
+  margin-right: 5vw;
+  float: right;
+  clear:both;
+  text-align: right;
+}
