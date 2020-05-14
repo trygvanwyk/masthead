@@ -241,7 +241,7 @@ body {
 .newsCard {
   width:60vw;
   height:30vw;
-  background-color:#eee;
+  background-color:#fff;
   box-shadow:0 .2vw .4vw 0 #333;
   position:absolute;
   margin-top:0vw;
@@ -262,6 +262,16 @@ body {
 .cardImage {
   width:auto;
   height:50%;
+  border: .2vw solid #000;
+}
+
+.eventList {
+  list-style:circle;
+}
+
+.eventItem {
+  margin-top:1vw;
+  font-size:2vw;
 }
 
 .cardParagraph{
