@@ -384,3 +384,29 @@ body {
   clear:both;
   text-align: right;
 }
+
+.bioContainer {
+    margin: 2vw 0vw 0 0vw;
+    border: 5px solid #555;
+    overflow: auto;
+    background-color: lightblue;
+    top- -4vw;
+}
+.bioImage {
+    float: left;
+}
+.bioImage img {
+    display: block;
+    max-width: 14vw;
+    float: left;
+    padding: 2vw;
+    border-radius: 20vw;
+}
+.bioContent {
+  float: left;
+}
+.bioHeading {
+    font-weight: bold;
+    font-size: 7vw;
+
+}
