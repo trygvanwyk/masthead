@@ -11,6 +11,7 @@ body {
   padding-bottom:1vw;
   background-image:url('images/headingbg.svg');
   font-family:"Garamond";
+  position:fixed;
 }
 
 .headingText { /*div with "contrib" text in the heading*/
