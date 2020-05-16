@@ -408,13 +408,15 @@ body {
     border: 5px solid #555;
     overflow: auto;
     background-color: lightblue;
+    width:95%;
+    align-content: center;
 }
 .bioImage {
     float: left;
 }
 .bioImage img {
     display: block;
-    max-width: 14vw;
+    max-width: 20vw;
     float: left;
     padding: 2vw;
     border-radius: 20vw;
@@ -426,9 +428,9 @@ body {
     font-weight: bold;
     font-size: 7vw;
 }
-
 .titleBioL {
   color: grey;
+  font-size: 4vw;
 }
 .bioFull {
   padding: 1vw;
