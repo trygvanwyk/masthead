@@ -1,5 +1,6 @@
 var slideIndex = 0;
 var slideIndex1 = 0;
+var slideIndex3 = 0;
 
 function inProgress() {
   alert("We are currently creating this website! Send us an email to learn more about our progress: mastheaddevs@gmail.com");
@@ -65,3 +66,15 @@ function inProgress() {
 }
 
 */
+
+function riggingTextCarousel() {
+  var p;
+  var z = document.getElementsByClassName("coSlides");
+  for (p = 0; p < z.length; p++) {
+    z[p].style.display = "none";
+  }
+  slideIndex3++;
+  if (slideIndex3 > z.length) {slideIndex3 = 1}
+  z[slideIndex3-1].style.display = "block";
+  setTimeout(riggingTextCarousel, 4000); // set duration in ms
+}

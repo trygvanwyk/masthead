@@ -11,6 +11,7 @@ body {
   padding-bottom:1vw;
   background-image:url('images/headingbg.svg');
   font-family:"Garamond";
+  z-index:1;
 }
 
 .headingText { /*div with "contrib" text in the heading*/
@@ -378,28 +379,85 @@ body {
 /*Page 2 Bryan*/
 
 
+.riggingHeader {
+  position:relative;
+  z-index:-1;
+}
+
+.riggingHeaderImages {
+  max-width:100%;
+  width:100%;
+}
+
 .riggingHeaderImage {
   width:100%;
-  height:100%;
   margin-top:-1.5vw;
 }
 
-.riggingHeaderPara {
-  font-size:5vw;
-  position:relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.riggingHeaderCover {
+  max-width:100vw;
   width:100%;
-  text-align:center;
+  height:50vw;
+  opacity:.5;
+  position:relative;
+  margin-top:-50%;
 }
 
-.riggingHeaderCover {
-  width:100%;
-  height:100%;
-  opacity:50%;
+.riggingParaDiv {
+  font-size:5vw;
   position:relative;
-  top:
+  width:100%;
+  text-align:center;
+  margin-top:-26%;
+}
+
+.coStart {
+  text-align:center;
+  margin-top:-5%;
+}
+
+.coStartHeader {
+  font-size:1vw;
+}
+
+.coNames {
+  font-size:2vw;
+  background-color:#eee;
+  width:20%;
+  position:relative;
+  left:40%;
+  padding:.5vw;
+  margin-top:-1vw;
+  border-radius:3vw;
+}
+
+#riggingStart {
+  position:relative;
+  margin-top:0;
+  background-color:#20ACFF;
+  color:#fff;
+}
+
+#riggingStartHeader {
+  font-size:3vw;
+  text-align:center;
+  padding:1vw;
+}
+
+.riggingNavBar {
+
+}
+
+.riggingList {
+
+}
+
+.riggingLi {
+
+}
+
+.riggingLink {
+
 }
 
 .bioContainer {
