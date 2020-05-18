@@ -445,19 +445,49 @@ body {
 }
 
 .riggingNavBar {
-
+  width:100%;
 }
 
 .riggingList {
-
+  list-style-type:none;
 }
 
 .riggingLi {
-
+  float:left;
+  color:#00f;
+  text-align:center;
+  display:block;
+  font-size:1.5vw;
 }
 
 .riggingLink {
+  cursor: pointer;
+  position: relative;
+  color:#fff;
+  background-color:#20ACFF;
+  font-size: 2vw;
+  transition: 0.6s ease;
+  border-radius: 0 .1vw .1vw 0;
+  user-select:none;
+  padding:2vw;
+  font-size:1.5vw;
+  margin:0vw .5vw .5vw 0vw;
+  float:left;
+  clear:both;
+}
 
+.riggingLink:hover {
+  background-color:#7171ff;
+}
+
+.active1, .dot1:hover {
+  background-color: #7171ff;
+}
+
+.riggingBoats {
+  position:relative;
+  float:left;
+  clear:both;
 }
 
 .bioContainer {

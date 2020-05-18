@@ -67,6 +67,7 @@ function inProgress() {
 
 */
 
+
 function riggingTextCarousel() {
   var p;
   var z = document.getElementsByClassName("coSlides");
@@ -77,4 +78,35 @@ function riggingTextCarousel() {
   if (slideIndex3 > z.length) {slideIndex3 = 1}
   z[slideIndex3-1].style.display = "block";
   setTimeout(riggingTextCarousel, 4000); // set duration in ms
+}
+
+
+//Slide Control for rigging slides with different boat cards
+var slideIndex4 = 1;
+showSlides1(slideIndex4);
+
+// Next/previous controls
+function plusSlides1(m) {
+  showSlides1(slideIndex4 += m);
+}
+
+// Thumbnail image controls
+function currentSlide1(m) {
+  showSlides1(slideIndex4 = m);
+}
+
+function showSlides1(m) {
+  var t;
+  var slides4 = document.getElementsByClassName("riggingBoats");
+  var dots4 = document.getElementsByClassName("dot1");
+  if (m > slides4.length) {slideIndex4 = 1}
+  if (m < 1) {slideIndex4 = slides4.length}
+  for (t = 0; t < slides4.length; t++) {
+      slides4[t].style.display = "none";
+  }
+  for (t = 0; t < dots4.length; t++) {
+      dots4[t].className = dots4[t].className.replace(" active1", "");
+  }
+  slides4[slideIndex4-1].style.display = "block";
+  dots4[slideIndex4-1].className += " active1";
 }
