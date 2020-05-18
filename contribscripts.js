@@ -85,11 +85,6 @@ function riggingTextCarousel() {
 var slideIndex4 = 1;
 showSlides1(slideIndex4);
 
-// Next/previous controls
-function plusSlides1(m) {
-  showSlides1(slideIndex4 += m);
-}
-
 // Thumbnail image controls
 function currentSlide1(m) {
   showSlides1(slideIndex4 = m);
