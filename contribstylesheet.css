@@ -526,7 +526,7 @@ body {
   margin-top: -2.5vw;
   margin-bottom: -1vw;
 }
-<<<<<<< HEAD
+
 .logo-image img{
    width: 7vw;
    height: 7vw;
@@ -536,7 +536,7 @@ body {
 .floatMe {
   float:left;
   margin-left: 1vw;
-=======
+
 
 /* community page */
 
@@ -554,5 +554,3 @@ body {
   margin: 2vw, 2vw, 2vw, 2vw;
   width: 39vw;
   height: 28vw;
->>>>>>> 8c27c97db91b1c2db15569b603ff1c131611df33
-}
