@@ -323,12 +323,13 @@ body {
 
 .coverParagraphBio {
   text-align:center;
+  font-family: 'Inder', sans-serif;
   color: #fff;
   position: absolute;
-  top: 40%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 8vw;
+  font-size: 9vw;
 }
 
 /* Display the columns below each other instead of side by side on small screens */
@@ -530,4 +531,14 @@ body {
   border: 1.7vw solid #4D7491;
   margin-top: -2.5vw;
   margin-bottom: -1vw;
+}
+.logo-image img{
+   width: 7vw;
+   height: 7vw;
+   margin-top: 1.2vw;
+   float: left;
+}
+.floatMe {
+  float:left;
+  margin-left: 1vw;
 }
