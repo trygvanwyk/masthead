@@ -509,7 +509,7 @@ body {
     border-radius: 20vw;
 }
 .bioContent {
-  float: left;
+    float: left;
 }
 .bioHeading {
     font-weight: bold;
@@ -530,4 +530,22 @@ body {
   border: 1.7vw solid #4D7491;
   margin-top: -2.5vw;
   margin-bottom: -1vw;
+}
+
+/* community page */
+
+.communityDiv {
+  width: 39vw;
+  height: 28vw;
+  border: 0.05vw solid #000;
+  background-color: solid #000;
+  margin-top: 2vw;
+  margin-left: 2vw;
+  margin-bottom: 2vw;
+}
+
+#communityPicOne {
+  margin: 2vw, 2vw, 2vw, 2vw;
+  width: 39vw;
+  height: 28vw;
 }
