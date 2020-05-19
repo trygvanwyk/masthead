@@ -549,9 +549,8 @@ body {
   margin-left: 1vw;
 
 
-/* community page */
 
-.communityDiv {
+.communityDivOne {
   width: 39vw;
   height: 28vw;
   border: 0.05vw solid #000;
@@ -565,3 +564,4 @@ body {
   margin: 2vw;
   width: 39vw;
   height: 28vw;
+}
