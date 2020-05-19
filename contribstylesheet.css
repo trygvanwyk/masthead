@@ -549,20 +549,55 @@ body {
   margin-left: 1vw;
 }
 
-
+/* community page */
 
 .communityDivOne {
-  width: 39vw;
-  height: 28vw;
-  border: 0.05vw solid #000;
-  background-color: solid #000;
-  margin-top: 2vw;
-  margin-left: 2vw;
-  margin-bottom: 2vw;
+  width: 46.8vw;
+  height: 33.6vw;
+  margin: 2vw 0vw 2vw -22vw;
+  position: relative;
+  float: left;
 }
 
 #communityPicOne {
-  margin: 2vw;
-  width: 39vw;
+  width: 46.8vw;
   height: 28vw;
+}
+
+#communityPicTwo {
+  width: 43vw;
+  height: 13.9vw;
+  margin-top: -2.5vw;
+}
+
+.communityDivTwo {
+  width: 43vw;
+  height: 28vw;
+  border: 0.1vw solid #000;
+  margin: 2vw 4vw 0vw 2vw;
+  float: right;
+  position: relative;
+}
+
+.communityTextOne {
+  font: "Didot";
+  font-size: 2vw;
+  padding: 0.3vw;
+  margin-top: 0.3vw;
+}
+
+.descriptionCommunityLinks {
+  text-decoration:none;
+  cursor: pointer;
+  position: absolute;
+  color:#fff;
+  background-color:#20ACFF;
+  font-size: 2vw;
+  transition: 0.6s ease;
+  border-radius: .5vw;
+  padding-left:.4vw;
+  padding-right:.4vw;
+  font-size:1.5vw;
+  margin-left:.5vw;
+  margin-right:.5vw;
 }
