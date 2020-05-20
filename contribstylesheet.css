@@ -551,10 +551,23 @@ body {
 
 /* community page */
 
+.communityHeader {
+  width: 100%;
+  height: 58vw;
+  margin-top: -1.33vw;
+}
+
+.communityHeadImage {
+  width: 100%;
+  height: 58vw;
+  margin-top: -1.33vw;
+  border: 0.1vw solid #000;
+}
+
 .communityDivOne {
   width: 46.8vw;
   height: 33.6vw;
-  margin: 2vw 0vw 2vw -22vw;
+  margin: 2vw 0vw 2vw 2vw;
   position: relative;
   float: left;
 }
