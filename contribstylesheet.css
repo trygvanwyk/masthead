@@ -526,8 +526,8 @@ body {
   font-size: 4vw;
 }
 .bioFull {
-  padding: 1vw;
-  text-align: center;
+  padding: 10px;
+  text-align: left;
 }
 #firstCardBio {
   margin-top: 0vw;
@@ -539,9 +539,9 @@ body {
 }
 
 .logo-image img{
-   width: 7vw;
-   height: 7vw;
-   margin-top: 1.2vw;
+   width: 6.5vw;
+   height: 6.5vw;
+   margin-top: 1.6vw;
    float: left;
 }
 .floatMe {
