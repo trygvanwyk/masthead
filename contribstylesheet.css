@@ -377,9 +377,6 @@ body {
   background-color: #555;
 }
 
-/*Page 2 Bryan*/
-
-
 .riggingHeader {
   position:relative;
   z-index:-1;
@@ -547,6 +544,14 @@ body {
 .floatMe {
   float:left;
   margin-left: 1vw;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  font-size: 5vw;
 }
 
 /* community page */
