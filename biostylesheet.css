@@ -1,0 +1,48 @@
+.bioContainer {
+    margin: 0 2vw;
+    border: 5px solid #555;
+    overflow: auto;
+    background-color: lightblue;
+    width:95%;
+    align-content: center;
+}
+.bioImage {
+    float: left;
+}
+.bioImage img {
+    display: block;
+    max-width: 20vw;
+    float: left;
+    padding: 2vw;
+    border-radius: 20vw;
+}
+.bioContent {
+    float: left;
+}
+.bioHeading {
+    font-weight: bold;
+    font-size: 7vw;
+}
+.titleBioL {
+  color: grey;
+  font-size: 4vw;
+}
+.bioFull {
+  padding: 10px;
+  text-align: left;
+}
+#firstCardBio {
+  margin-top: 0vw;
+}
+.lineBio {
+  border: 1.7vw solid #4D7491;
+  margin-top: -2.5vw;
+  margin-bottom: -1vw;
+}
+
+.logo-image img{
+   width: 6.5vw;
+   height: 6.5vw;
+   margin-top: 1.6vw;
+   float: left;
+}
