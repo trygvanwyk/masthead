@@ -311,6 +311,7 @@ body {
   padding-bottom:2vw;
   clear:both;
   font-size: 1.5vw;
+  position: relative;
 }
 
 /* Three columns side by side */
@@ -569,10 +570,44 @@ body {
   border: 0.1vw solid #000;
 }
 
+.line {
+  width: 85vw;
+  margin-left: 7.5vw;
+  margin-top: 7vw;
+  margin-bottom: 7vw;
+}
+
+.caption {
+  width: 15vw;
+  height: 2.3vw;
+  background: rgb(153, 153, 153);
+  position: absolute;
+  z-index: 100;
+  opacity: 1;
+  border: 0.1vw solid #000;
+}
+
+.smallFont {
+  font-size: 1vw;
+  font:"Didot";
+  margin-left: 0.75vw;
+}
+.mediumFont {
+  font-size: 2.5vw;
+  font: "Didot";
+  margin-left: 2vw;
+}
+.bigFont {
+  font-size: 5vw;
+  font: "Didot";
+  margin-left: 2vw;
+  text-decoration: underline;
+}
+
 .communityDivOne {
   width: 46.8vw;
   height: 33.6vw;
-  margin: 2vw 0vw 2vw 2vw;
+  margin: 0vw 0vw -3vw 2vw;
   position: relative;
   float: left;
 }
@@ -585,23 +620,50 @@ body {
 #communityPicTwo {
   width: 43vw;
   height: 13.9vw;
-  margin-top: -2.5vw;
+  margin-top: -3.5vw;
+}
+
+#communityPicThree {
+  width: 78vw;
+  height: 44vw;
+}
+
+#communityPicFour {
+  width: 78vw;
+  height: 50vw;
+  position: absolute;
 }
 
 .communityDivTwo {
   width: 43vw;
   height: 28vw;
   border: 0.1vw solid #000;
-  margin: 2vw 4vw 0vw 2vw;
+  margin: 0vw 4vw -3vw 2vw;
   float: right;
   position: relative;
 }
 
+.communityDivThree {
+  width: 78vw;
+  height: 44vw;
+  margin-left: 11vw;
+  margin-right: 11vw;
+  margin-bottom: 40vw;
+}
+
+.communityDivFour {
+  width: 78vw;
+  height: 50vw;
+  margin-left: 11vw;
+  margin-right: 11vw;
+}
+
 .communityTextOne {
   font: "Didot";
-  font-size: 2vw;
+  font-size: 2.4vw;
   padding: 0.3vw;
-  margin-top: 0.3vw;
+  padding-top: 1.6vw;
+  margin-top: 0.6vw;
 }
 
 .descriptionCommunityLinks {
@@ -610,12 +672,11 @@ body {
   position: absolute;
   color:#fff;
   background-color:#20ACFF;
-  font-size: 2vw;
+  font-size: 2.6vw;
   transition: 0.6s ease;
   border-radius: .5vw;
   padding-left:.4vw;
   padding-right:.4vw;
-  font-size:1.5vw;
   margin-left:.5vw;
   margin-right:.5vw;
 }
