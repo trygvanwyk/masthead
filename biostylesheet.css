@@ -11,7 +11,7 @@
 }
 .bioImage img {
     display: block;
-    max-width: 20vw;
+    max-width: 25vw;
     float: left;
     padding: 2vw;
     border-radius: 20vw;
@@ -24,7 +24,7 @@
     font-size: 7vw;
 }
 .titleBioL {
-  color: grey;
+  color: #6D6D6D;
   font-size: 4vw;
 }
 .bioFull {
@@ -35,7 +35,7 @@
   margin-top: 0vw;
 }
 .lineBio {
-  border: 1.7vw solid #4D7491;
+  border: 1.7vw solid #5E5E5E;
   margin-top: -2.5vw;
   margin-bottom: -1vw;
 }
@@ -45,4 +45,9 @@
    height: 6.5vw;
    margin-top: 1.6vw;
    float: left;
+}
+.bioLine {
+  border: .5vw solid grey;
+  margin-top: -3vw;
+  margin-left: .5vw;
 }
