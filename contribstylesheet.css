@@ -634,6 +634,12 @@ body {
   position: absolute;
 }
 
+#communityPicFive {
+  width: 78vw;
+  height: 50vw;
+  position: absolute;
+}
+
 .communityDivTwo {
   width: 43vw;
   height: 28vw;
@@ -664,6 +670,13 @@ body {
   padding: 0.3vw;
   padding-top: 1.6vw;
   margin-top: 0.6vw;
+}
+
+.communityDivFive {
+  width: 78vw;
+  height: 50vw;
+  margin-left: 11vw;
+  margin-right: 11vw;
 }
 
 .descriptionCommunityLinks {
